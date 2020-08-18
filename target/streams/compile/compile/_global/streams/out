@@ -1,0 +1,18 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Marko\Desktop\adverts\adverts\app\controllers\AdvertController.scala:58:39: value find is not a member of scala.concurrent.Future[reactivemongo.api.bson.collection.BSONCollection][0m
+[0m[[0m[31merror[0m] [0m[0m    val oneAdvert = advertsCollection.find().first()[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Marko\Desktop\adverts\adverts\app\controllers\AdvertController.scala:59:51: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(5000)[0m
+[0m[[0m[31merror[0m] [0m[0m required: scala.concurrent.duration.Duration[0m
+[0m[[0m[31merror[0m] [0m[0m    val result = Await.result(oneAdvert.toFuture, 5000)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Marko\Desktop\adverts\adverts\conf\routes:7:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method index,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /                           controllers.HomeController.index[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Marko\Desktop\adverts\adverts\conf\routes:7:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method index,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /                           controllers.HomeController.index[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
